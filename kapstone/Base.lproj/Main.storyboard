@@ -200,7 +200,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Sign In" titleAlignment="center"/>
                                 <connections>
-                                    <segue destination="mIb-UM-F62" kind="show" id="bxc-Oe-HAP"/>
+                                    <segue destination="mIb-UM-F62" kind="show" id="lSf-2T-v7h"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -246,6 +246,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Find Tournaments">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="FG2-d7-hu7" kind="show" id="yTI-c7-QuJ"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="584014-200" translatesAutoresizingMaskIntoConstraints="NO" id="mjL-qo-Y75">
                                 <rect key="frame" x="32" y="180" width="32" height="35"/>
